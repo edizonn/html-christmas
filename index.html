@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Merry Christmas! </title>
+
+        <style>
+            body {
+            margin: 0;
+            padding: 0;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                gap: 2rem;
+            }
+
+            .box {
+                border: 0px solid black;
+                border-radius: 10px;
+                min-width: 350px;
+                min-height: 100px;
+                background-color: #e8e6e1;
+
+            }
+
+            p {
+                text-align: center;
+                font-family: 'Anton', sans-serif;
+                font-family: 'Libre Baskerville', serif;
+                font-size: 3rem;
+                color: #e8e6e1;
+
+            }
+
+            #red:hover {
+                color: red;
+            }
+
+            #green:hover {
+                color: green;
+            }
+
+            #blue:hover {
+                color: blue;
+            }
+
+            footer {
+                display: flex;
+                justify-content: center;
+            }
+
+            #message {
+            font-size: 1rem;
+            color: black;
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: 2px solid #3498db;
+            color: #3498db;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;    
+            }
+
+            #message:hover {
+            background-color: #3498db;
+            color: #ffff
+            }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="box"> 
+                <p id="red"> Merry </p>
+            </div>
+
+            <div class="box"> 
+                <p id="green"> Christmas </p>
+            </div>
+
+            <div class="box"> 
+                <p id="blue"> Doc Joys ^-^ </p>
+            </div>
+            
+        </div>
+
+        <footer>
+            <p id="message"> <a href="./message.html"> My Message Here </a> </p>
+        </footer>
+    </body>
+</html>
